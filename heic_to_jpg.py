@@ -4,6 +4,7 @@ from pillow_heif import register_heif_opener
 
 IN_DIR = Path("heic_img")
 OUT_DIR = Path("jpg_img")
+# 少量压缩，避免图片质量损失
 QUALITY = 92  
 
 def main():
