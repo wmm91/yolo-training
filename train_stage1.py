@@ -1,8 +1,6 @@
 from ultralytics import YOLO
 
 # ================= 核心配置 =================
-# 🌟 在这里自定义你的数据集 yaml 文件路径（建议写绝对路径）
-# 例如: "/Users/你的用户名/Desktop/Coffee Detection/data.yaml"
 DATASET_YAML_PATH = "Coffee Detection.v2i.yolov8/data.yaml" 
 
 IMGSZ = 768
